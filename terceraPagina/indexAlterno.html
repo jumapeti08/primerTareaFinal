@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body id="pagina">
+    <div class="contenido">
+        <div class="encabezado">
+            <h1 class="titulo">DEPORTES</h1>
+            <button class="oscuro" onclick="volver_2()">Modo oscuro</button>
+        </div>
+
+        <table>
+            <tr>
+                <td colspan="3" class="primerCelda">
+                    <h1>Futbol</h1>
+                </td>
+            </tr>
+            <tr>
+                <td id="nombre1"></td>
+                <td id="pais1"></td>
+                <td rowspan="4"> <img class="imagen" src="../imagenes/pngwing.com (3).png" alt="Futbol"></td>
+            </tr>
+            <tr>
+                <td id="nombre2"></td>
+                <td id="pais2"></td>
+            </tr>
+            <tr>
+                <td id="nombre3"></td>
+                <td id="pais3"></td>
+            </tr>
+            <tr>
+                <td id="nombre4"></td>
+                <td id="pais4"></td>
+            </tr>
+            <tr>
+                <td colspan="3"> <button onclick="volver_1()">Volver</button></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td colspan="3" class="primerCelda">
+                    <h1>Futbol</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>Lionel Messi</td>
+                <td>Argentina</td>
+                <td rowspan="4"> <img class="imagen" src="../imagenes/pngwing.com (3).png" alt="Futbol"></td>
+            </tr>
+            <tr>
+                <td>James Rodriguez</td>
+                <td>Colombia</td>
+            </tr>
+            <tr>
+                <td>Daniel Muñoz</td>
+                <td>Colombia</td>
+            </tr>
+            <tr>
+                <td>Toni Kroos</td>
+                <td>Alemania</td>
+            </tr>
+            <tr>
+                <td colspan="3"> <button onclick="mostrarMensaje('Futbol')">Futbol</button></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td colspan="3" class="primerCelda">
+                    <h1>Tennis</h1>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4"><img class="imagen" src="../imagenes/pngwing.com (1).png" alt="Tenis"></td>
+                <td>Carlos Alcaraz</td>
+                <td>España</td>
+            </tr>
+            <tr>
+                <td>Novak Djokovic</td>
+                <td>Serbia</td>
+            </tr>
+            <tr>
+                <td>Rafel Nadal</td>
+                <td>España</td>
+            </tr>
+            <tr>
+                <td>Roger Federer</td>
+                <td>Suiza</td>
+            </tr>
+            <tr>
+                <td colspan="3"> <button onclick="mostrarMensaje('Tenis')">Tenis</button></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td colspan="3" class="primerCelda">
+                    <h1>Voleibol</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>Karch Kiraly</td>
+                <td rowspan="4"><img class="imagen" src="../imagenes/pngwing.com (2).png" alt="Voleibol"></td>
+                <td>Estados Unidos</td>
+            </tr>
+            <tr>
+                <td>Emanuel Rego</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Lorenzo Bernardi</td>
+                <td>Italia</td>
+            </tr>
+            <tr>
+                <td>Nikola Grbić</td>
+                <td>Serbia</td>
+            </tr>
+            <tr>
+                <td colspan="3"> <button onclick="mostrarMensaje('Voleibol')">Voleibol</button></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td colspan="3" class="primerCelda">
+                    <h1>Futbol</h1>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="nombre1"></td>
+                <td><input type="text" id="pais1"></td>
+                <td rowspan="4"> <img class="imagen" src="../imagenes/pngwing.com (3).png" alt="Futbol"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="nombre2"></td>
+                <td><input type="text" id="pais2"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="nombre3"></td>
+                <td><input type="text" id="pais3"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="nombre4"></td>
+                <td><input type="text" id="pais4"></td>
+            </tr>
+            <tr>
+                <td colspan="3"> <button onclick="guardar()">Aceptar</button></td>
+            </tr>
+        </table>
+
+
+        <h1 class="subtitulos">HTML</h1>
+        <p>HTML (HyperText Markup Language) es un lenguaje de programación que define la estructura
+            y el significado de las páginas web. Es uno de los componentes más básicos de la web y es
+            utilizado para estructurar y desplegar los contenidos de una página web, como párrafos,
+            imágenes, tablas de datos y listas con viñetas.</p>
+        <h1 class="subtitulos">CSS</h1>
+        <p>CSS (Cascading Style Sheets) es un lenguaje de diseño web que permite definir y crear la
+            presentación visual de un documento escrito en un lenguaje de marcado como HTML. CSS se
+            compone de archivos de programación que seleccionan elementos de una página y controlan
+            su presentación.</p>
+    </div>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
